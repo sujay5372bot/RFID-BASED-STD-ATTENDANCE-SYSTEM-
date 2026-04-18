@@ -9,7 +9,7 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 //---------------------------------------------------------------------------------------------------------
 // Enter Google Script Deployment ID:
-const char *GScriptId = "**********";
+const char *GScriptId = "AKfycbw1V9J-tVobQ-dniVLc4Npy4ZLhHVh33n8T4eTOTZbFImUx1cC0a0J6wnyqBxt1bH4o";
 //---------------------------------------------------------------------------------------------------------
 // Enter network credentials:
 const char* ssid     = "*********";
