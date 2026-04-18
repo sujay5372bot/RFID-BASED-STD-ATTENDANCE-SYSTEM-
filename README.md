@@ -1,12 +1,6 @@
-🌐 IoT Based RFID Student Attendance System using ESP8266, LCD & Google Sheets
+# 🌐 IoT Based RFID Student Attendance System using ESP8266, LCD & Google Sheets
 
-"Project" (https://img.shields.io/badge/Project-RFID%20Attendance-blue)
-"Branch" (https://img.shields.io/badge/Branch-Electrical%20Engineering-yellow)
-"Platform" (https://img.shields.io/badge/Platform-NodeMCU%20ESP8266-green)
-"Database" (https://img.shields.io/badge/Database-Google%20Sheets-orange)
-"Display" (https://img.shields.io/badge/Display-LCD%2016x2-lightgrey)
-"Alert" (https://img.shields.io/badge/Alert-Buzzer-red)
-"Status" (https://img.shields.io/badge/Status-Completed-brightgreen)
+![Project](https://img.shields.io/badge/Project-RFID%20Attendance-blue) ![Branch](https://img.shields.io/badge/Branch-Electrical%20Engineering-yellow) ![Platform](https://img.shields.io/badge/Platform-NodeMCU%20ESP8266-green) ![Database](https://img.shields.io/badge/Database-Google%20Sheets-orange) ![Display](https://img.shields.io/badge/Display-LCD%2016x2-lightgrey) ![Alert](https://img.shields.io/badge/Alert-Buzzer-red) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
