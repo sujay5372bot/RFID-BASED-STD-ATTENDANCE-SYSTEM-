@@ -46,6 +46,8 @@ int blockNum = 2;
 /* Legthn of buffer should be 2 Bytes more than the size of Block (16 Bytes) */
 byte bufferLen = 18;
 byte readBlockData[18];
+
+void ReadDataFromBlock(int blockNum, byte readBlockData[]);
 //------------------------------------------------------------
 
 /****************************************************************************************************
