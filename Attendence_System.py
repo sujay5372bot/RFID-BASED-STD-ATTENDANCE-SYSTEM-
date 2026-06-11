@@ -2,7 +2,7 @@
 #include <ESP8266WiFi.h>
 #include <SPI.h>
 #include <MFRC522.h>
-// #include <HTTPSRedirect.h>
+#include <HTTPSRedirect.h>
 
 #include<Wire.h>
 #include<LiquidCrystal_I2C.h>
@@ -24,7 +24,7 @@ const char* host        = "script.google.com";
 const int   httpsPort   = 443;
 const char* fingerprint = "";
 String url = String("/macros/s/") + MyGScriptId + "/exec";
-// HTTPSRedirect* client = nullptr;
+#// HTTPSRedirect* client = nullptr;
 //------------------------------------------------------------
 // Declare variables that will be published to Google Sheets
 String student_Rollno;
