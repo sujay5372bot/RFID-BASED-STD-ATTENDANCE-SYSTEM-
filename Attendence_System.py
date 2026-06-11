@@ -24,7 +24,7 @@ const char* host        = "script.google.com";
 const int   httpsPort   = 443;
 const char* fingerprint = "";
 String url = String("/macros/s/") + MyGScriptId + "/exec";
-//HTTPSRedirect* client = nullptr;
+// HTTPSRedirect* client = nullptr;
 //------------------------------------------------------------
 // Declare variables that will be published to Google Sheets
 String student_Rollno;
