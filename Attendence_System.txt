@@ -9,7 +9,7 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 //---------------------------------------------------------------------------------------------------------
 // Enter Google Script Deployment ID:
-const char *GScriptId = "AKfycbw1V9J-tVobQ-dniVLc4Npy4ZLhHVh33n8T4eTOTZbFImUx1cC0a0J6wnyqBxt1bH4o";
+const char *MyGScriptId = "AKfycbw1V9J-tVobQ-dniVLc4Npy4ZLhHVh33n8T4eTOTZbFImUx1cC0a0J6wnyqBxt1bH4o";
 //---------------------------------------------------------------------------------------------------------
 // Enter network credentials:
 const char* ssid     = "SUJAY";
@@ -23,7 +23,7 @@ String payload = "";
 const char* host        = "script.google.com";
 const int   httpsPort   = 443;
 const char* fingerprint = "";
-String url = String("/macros/s/") + GScriptId + "/exec";
+String url = String("/macros/s/") + MyGScriptId + "/exec";
 HTTPSRedirect* client = nullptr;
 //------------------------------------------------------------
 // Declare variables that will be published to Google Sheets
