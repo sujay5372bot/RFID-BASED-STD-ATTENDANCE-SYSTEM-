@@ -246,7 +246,8 @@ void loop() {
     // do stuff here if publish was successful
     lcd.clear();
     lcd.setCursor(0,0); //col=0 row=0
-    lcd.print("Roll no: "+student_Rollno);
+    lcd.print("Roll no: ");
+    lcd.print(student_Rollno);
     lcd.setCursor(0,1); //col=0 row=0
     lcd.print("Present");
     digitalWrite(15, HIGH);
