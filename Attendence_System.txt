@@ -53,7 +53,7 @@ byte readBlockData[18];
 ****************************************************************************************************/
 void setup() {
   //----------------------------------------------------------
-  pinMode(D8, OUTPUT);
+  pinMode(15, OUTPUT);
   Serial.begin(9600);        
   delay(10);
   Serial.println('\n');
@@ -247,9 +247,9 @@ void loop() {
     lcd.print("Roll no: "+student_Rollno);
     lcd.setCursor(0,1); //col=0 row=0
     lcd.print("Present");
-    digitalWrite(D8, HIGH);
+    digitalWrite(15, HIGH);
     delay(2000);
-    digitalWrite(D8, LOW);
+    digitalWrite(15, LOW);
     delay(2000);
   }
   //----------------------------------------------------------------
